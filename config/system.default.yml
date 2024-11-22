@@ -1,0 +1,21 @@
+health:
+  checkInterval: 30000
+  thresholds:
+    cpu: 80
+    memory: 85
+    disk: 90
+
+performance:
+  metrics:
+    retentionPeriod: 3600000
+    aggregationInterval: 60000
+
+logging:
+  level: "info"
+  outputs:
+    - type: "console"
+    - type: "file"
+      filename: "error.log"
+      level: "error"
+    - type: "file"
+      filename: "combined.log"

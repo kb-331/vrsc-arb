@@ -1,0 +1,17 @@
+monitoring:
+  minSpreadPercent: 0.5
+  minVolumeUSD: 1000
+  updateInterval: 60000
+  priceValidityMs: 300000
+
+trading:
+  maxOrderSize: 1000
+  minOrderSize: 10
+  orderTimeout: 30000
+  maxRetries: 3
+
+risk:
+  maxPositionSize: 1000
+  maxDrawdown: 0.02
+  maxSlippage: 0.003
+  minLiquidity: 10000

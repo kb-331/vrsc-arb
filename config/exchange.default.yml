@@ -1,0 +1,21 @@
+exchanges:
+  safetrade:
+    apiUrl: "https://safe.trade/api/v2"
+    wsUrl: "wss://safe.trade/ws"
+    rateLimit: 1
+    timeout: 30000
+    retryAttempts: 3
+
+  tradeogre:
+    apiUrl: "https://tradeogre.com/api/v1"
+    wsUrl: "wss://tradeogre.com/ws"
+    rateLimit: 1
+    timeout: 30000
+    retryAttempts: 3
+
+  verusdefi:
+    apiUrl: "https://api.verus.services"
+    wsUrl: "wss://api.verus.services/ws"
+    rateLimit: 2
+    timeout: 30000
+    retryAttempts: 3
